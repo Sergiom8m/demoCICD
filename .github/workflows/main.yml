@@ -11,3 +11,9 @@ jobs:
 
       - name: Probar código
         run: python3 main.py
+
+      - name: Crear imagen docker
+        run: docker build -t sergiom8m8/holamundo .
+
+      - name: Probar imagen docker
+        run: docker run sergiom8m8/holamundo
