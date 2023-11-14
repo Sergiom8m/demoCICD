@@ -1,2 +1,2 @@
-prihDBCHIQBvrbent("Hola mundo")
+print("Hola mundo")
 
